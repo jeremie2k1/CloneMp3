@@ -28,5 +28,11 @@ let allMusic = [
         artist: "Lil Zpoet",
         img: "music_5",
         src: "music_5"
+    },
+    {
+        name: "Hoa vàng nay tàn",
+        artist: "Lil Zpoet",
+        img: "music_6",
+        src: "music_6"
     }
 ];
