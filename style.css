@@ -291,4 +291,18 @@ ul li.playing {
     color: var(--violet);
 }
 
-/* https://www.youtube.com/watch?v=1-CvPn4AbT4 */
+.element {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 40px;
+    height: 50px;
+    border-top: 50px solid rgb(162, 8, 251);
+    opacity: 0.5;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    transform-origin: top left;
+    transition: .25s;
+}
